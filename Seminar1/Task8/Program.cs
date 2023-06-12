@@ -3,7 +3,6 @@
 // 8 -> 2, 4, 6, 8
 Console.Write("Введите число N: ");
 int numberN = Convert.ToInt32(Console.ReadLine());
-int countEvenNum = 0;
 string evenNum = "";
 for(int i = 1; i <= numberN; i++)
 {
@@ -14,4 +13,5 @@ for(int i = 1; i <= numberN; i++)
     }
 }
 Console.Write("Список четных чисел от 1 до " + numberN + ": " + evenNum);
+Console.Write("\n ...Нажмите Enter для выхода...");
 Console.ReadLine();
